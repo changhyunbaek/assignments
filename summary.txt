@@ -1,0 +1,173 @@
+  1. "BIOGUIDE_ID"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Unique values:         21
+	Longest value:         7 characters
+	Most common values:    O000170 (3x)
+	                       None (2x)
+	                       B000213 (2x)
+	                       B001245 (2x)
+	                       R000593 (2x)
+
+  2. "OFFICE"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         22
+	Longest value:         26 characters
+	Most common values:    HON. BETO O"ROURKE (3x)
+	                       HON. JOE BARTON (2x)
+	                       HON. MADELEINE Z. BORDALLO (2x)
+	                       HON. DENNIS A. ROSS (2x)
+	                       NEW MEMBER ORIENTATION (1x)
+
+  3. "QUARTER"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         1
+	Longest value:         6 characters
+	Most common values:    2017Q1 (27x)
+
+  4. "PROGRAM"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         3
+	Longest value:         28 characters
+	Most common values:    OFFICIAL EXPENSES OF MEMBERS (25x)
+	                       NEW MEMBERS ORIENTATION (1x)
+	                       MISCELLANEOUS AUTOMOBILES (1x)
+
+  5. "CATEGORY"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         1
+	Longest value:         6 characters
+	Most common values:    TRAVEL (27x)
+
+  6. "DATE"
+
+	Type of data:          Date
+	Contains null values:  False
+	Unique values:         21
+	Smallest value:        2017-01-03
+	Largest value:         2017-03-29
+	Most common values:    2017-03-29 (3x)
+	                       2017-02-24 (2x)
+	                       2017-03-27 (2x)
+	                       2017-03-03 (2x)
+	                       2017-03-22 (2x)
+
+  7. "TRANSCODE"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         1
+	Longest value:         2 characters
+	Most common values:    AP (27x)
+
+  8. "RECORDID"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         26
+	Longest value:         8 characters
+	Most common values:    E0498826 (2x)
+	                       E0472269 (1x)
+	                       E0482901 (1x)
+	                       E0488733 (1x)
+	                       E0497615 (1x)
+
+  9. "PAYEE"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         4
+	Longest value:         38 characters
+	Most common values:    CITIBANK GOV CARD SERVICE (24x)
+	                       LINCOLN AUTOMOTIVE FINANCIAL SERVICES (1x)
+	                       STRADER NICHOLAS L. (1x)
+	                       OGARA-HESS&EISENHARDT ARMORING COMPANY (1x)
+
+ 10. "START DATE"
+
+	Type of data:          Date
+	Contains null values:  False
+	Unique values:         23
+	Smallest value:        2016-10-02
+	Largest value:         2017-02-08
+	Most common values:    2017-01-18 (2x)
+	                       2017-01-09 (2x)
+	                       2017-01-03 (2x)
+	                       2017-01-26 (2x)
+	                       2016-11-21 (1x)
+
+ 11. "END DATE"
+
+	Type of data:          Date
+	Contains null values:  False
+	Unique values:         20
+	Smallest value:        2016-11-11
+	Largest value:         2017-03-04
+	Most common values:    2017-01-28 (3x)
+	                       2017-02-24 (3x)
+	                       2017-01-21 (2x)
+	                       2016-12-19 (2x)
+	                       2017-02-27 (2x)
+
+ 12. "PURPOSE"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         3
+	Longest value:         25 characters
+	Most common values:    COMMERCIAL TRANSPORTATION (14x)
+	                       LODGING (11x)
+	                       AUTOMOBILE LEASE (2x)
+
+ 13. "AMOUNT"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         27
+	Smallest value:        5,082.7
+	Largest value:         13,902.1
+	Sum:                   183,757.61
+	Mean:                  6,805.837
+	Median:                5,979.5
+	StDev:                 2,047.497
+	Most common values:    13,902.1 (1x)
+	                       8,476.76 (1x)
+	                       5,104.4 (1x)
+	                       5,962.47 (1x)
+	                       10,011.3 (1x)
+
+ 14. "YEAR"
+
+	Type of data:          Number
+	Contains null values:  False
+	Unique values:         2
+	Smallest value:        2,016
+	Largest value:         2,017
+	Sum:                   54,451
+	Mean:                  2,016.704
+	Median:                2,017
+	StDev:                 0.465
+	Most common values:    2,017 (19x)
+	                       2,016 (8x)
+
+ 15. "RECIP (orig.)"
+
+	Type of data:          Text
+	Contains null values:  False
+	Unique values:         4
+	Longest value:         38 characters
+	Most common values:    CITIBANK GOV CARD SERVICE (24x)
+	                       LINCOLN AUTOMOTIVE FINANCIAL SERVICES (1x)
+	                       STRADER NICHOLAS L. (1x)
+	                       OGARA-HESS&EISENHARDT ARMORING COMPANY (1x)
+
+Row count: 27

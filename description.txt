@@ -1,0 +1,9 @@
+Filter
+https://projects.propublica.org/congress/assets/staffers/2017Q1-house-disburse-detail.csv
+
+where
+"CATEGORY" is "TRAVEL"
+and
+"AMOUNT" is bigger than 5,000.
+
+row['CATEGORY'] == 'TRAVEL' and float(row['AMOUNT']) > 5000
