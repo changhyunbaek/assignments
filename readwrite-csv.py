@@ -33,7 +33,7 @@ vegetables = [
 # Open a CSV file
 with open('veggies.csv', 'w') as f:
 	writer = csv.writer(f)
-	writer.writerow(['name', 'color'])
+	writer.writerow(['name', 'color', 'length'])
 
 	# Loops through vegetables and prints out all the vegitables
 	for vegetables in vegetables:
@@ -41,7 +41,8 @@ with open('veggies.csv', 'w') as f:
 		#Write each veggie to a CSV
 		name = vegetables['name']
 		color = vegetables['color']
+		length_of_veggie = len(name)
 
-		row = [name, color]
+		row = [name, color, length_of_veggie]
 
 		writer.writerow(row)
