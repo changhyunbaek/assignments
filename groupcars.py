@@ -12,7 +12,7 @@ cars = [
 
 # group by make
 cars_by_make = {}
-for car in red_cars:
+for car in cars:
     make = car['make']
     if make in cars_by_make:
         cars_by_make[make].append(car)
@@ -20,11 +20,12 @@ for car in red_cars:
         cars_by_make[make] = [car]
 
 
-pprint(red_cars)
+
+pprint(cars_by_make)
 
 
 
 # Output to JSON file
 with open('groupredcars.json', 'w') as f:
-    json.dump(red_cars, f, indent = 2)
+    json.dump(cars_by_make, f, indent = 2)
 
